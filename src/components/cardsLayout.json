@@ -1,0 +1,44 @@
+[
+    {
+        "id":"a",
+        "image":"./assets/img/course-01.jpg",
+        "title": "Gallery Title",
+        "content":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, ullam?",
+        "filter":["trending","features"]
+    },
+    {
+        "id":"b",
+        "image":"./assets/img/course-02.jpg",
+        "title":"Gallery Title",
+        "content":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, ullam?",
+        "filter":["trending","popular"]
+    },
+    {
+        "id":"c",
+        "image":"./assets/img/course-03.jpg",
+        "title":"Gallery Title",
+        "content":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, ullam?",
+        "filter":["popular","features"]
+    },
+    {
+        "id":"d",
+        "image":"./assets/img/course-04.jpg",
+        "title":"Gallery Title",
+        "content":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, ullam?",
+        "filter":["popular","trending"]
+    },
+    {
+        "id":"e",
+        "image":"./assets/img/course-05.jpg",
+        "title":"Gallery Title",
+        "content":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, ullam?",
+        "filter":["popular","features"]
+    },
+    {
+        "id": "f",
+        "image": "./assets/img/course-06.jpg",
+        "title": "Gallery Title",
+        "content": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, ullam?",
+        "filter":["trending"]
+    }
+]

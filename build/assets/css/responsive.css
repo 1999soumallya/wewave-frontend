@@ -1,0 +1,264 @@
+/*
+ -----------------------------------------------------------------
+ X-Large devices (large desktops, less than 1400px)
+ -----------------------------------------------------------------
+*/
+@media (max-width: 1399.98px) {}
+
+/*
+ -----------------------------------------------------------------
+ X-Large devices (large desktops, less than 1400px)
+ -----------------------------------------------------------------
+*/
+
+
+/*
+ -----------------------------------------------------------------
+Large devices (desktops, less than 1200px)
+ -----------------------------------------------------------------
+*/
+
+@media (max-width: 1199.98px) {}
+
+
+/*
+ -----------------------------------------------------------------
+Large devices (desktops, less than 1200px)
+ -----------------------------------------------------------------
+*/
+
+
+/*
+ -----------------------------------------------------------------
+Medium devices (tablets, less than 992px)
+ -----------------------------------------------------------------
+*/
+
+@media (max-width: 991.98px) {}
+
+/*
+ -----------------------------------------------------------------
+Medium devices (tablets, less than 992px)
+ -----------------------------------------------------------------
+*/
+
+/*
+ -----------------------------------------------------------------
+Small devices (landscape phones, less than 768px)
+ -----------------------------------------------------------------
+*/
+
+@media (max-width: 767.98px) {
+    .right_area {
+        position: absolute;
+        top: 28px;
+        right: 67px;
+    }
+    .right_area .custom_btn {
+        padding: 11px 14px;
+        font-size: 14px;
+    }
+    .navbar-light .navbar-toggler {
+        color: var(--primary);
+        border-color: var(--primary);
+        border: 2px solid;
+        border-radius: 4px;
+        padding: 7px 10px;
+        box-shadow: none !important;
+    }
+    .banner {
+        padding: 0px;
+    }
+    .banner_container {
+        padding: 50px 0px;
+    }
+    .banner_container h1 {
+        font-size: 35px;
+        line-height: 45px;
+    }
+    
+.banner_container h5 {
+    font-size: 16px;
+}
+.waves {
+    height: 60px;
+}
+.wave {
+    background-size: 500px 60px;
+}
+.about_section, .services_sec, .gallery, .feature, .testimonial {
+    padding: 70px 0;
+}
+.front_img {
+    left: 50px;
+}
+.about_content {
+    margin-top: 90px;
+}
+.heading h2 {
+    font-size: 30px;
+}
+.heading {
+    margin-bottom: 40px;
+}
+.about_content .list li {
+    grid-template-columns: 1fr;
+}
+.about_content .list li {
+    grid-template-columns: 60px 1fr;
+}
+.about_content .list li .icon {
+    width: 60px;
+    height: 60px;
+}
+.about_content .list li .icon img {
+    width: 30px;
+}
+.gallery_menu ul {
+    gap: 15px;
+    margin-bottom: 50px;
+    flex-flow: wrap;
+}
+.gallery_menu ul li {
+    padding: 10px 10px;
+    font-size: 16px;
+}
+.center_btn {
+    margin-top: 20px;
+}
+.contact_content {
+    margin-bottom: 50px;
+}
+.booking-img .booking-shape img {
+    right: 0;
+}
+.booking-img {
+    padding-bottom: 0px;
+}
+.testimonial_items blockquote {
+    width: 100%;
+}
+.testimonial_items blockquote::before {
+    left: 10px;
+}
+.testimonial_items blockquote::after {
+    bottom: -22px;
+    right: 0;
+}
+.footer_title {
+    margin-top: 30px;
+}
+.gallery_overley {
+    top: 110%;
+}
+}
+
+/*
+ -----------------------------------------------------------------
+Small devices (landscape phones, less than 768px)
+ -----------------------------------------------------------------
+*/
+
+/*
+ -----------------------------------------------------------------
+X-Small devices (portrait phones, less than 576px)
+ -----------------------------------------------------------------
+*/
+@media (max-width: 575.98px) {
+    .booking-img .booking-shape img {
+        right: 7px;
+        max-width: 100px;
+        top: 4px;
+    }
+    .submenu {
+        top: 100%;
+        width: 100%;
+    }
+    .banner {
+        padding-top: 93px;
+    }
+    header.header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 99999999;
+        background: #fff;
+    }
+    #modal-container .modal-background .modal {
+        padding: 30px 15px;
+        width: 90%;
+        height: 80vh;
+    }
+    .img_bg {
+        max-width: 300px;
+    }
+    .content_row {
+        flex-direction: column-reverse;
+    }
+}
+
+/*
+ -----------------------------------------------------------------
+X-Small devices (portrait phones, less than 576px)
+ -----------------------------------------------------------------
+*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .banner_container p {
+        display: none;
+    }
+    .banner_container h1 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .banner_container h5 {
+        font-size: 14px;
+        padding-left: 0;
+    }
+    .banner_container h5::before {
+        top: 100%;
+    }
+    .content_row {
+        flex-direction: column-reverse;
+    }
+    .content_row .booking-img{
+        margin-bottom: 30px;
+    }
+}
+@media (min-width: 767.98px) and (max-width: 991.98px) { 
+
+    .footer_content {
+        margin-top: 30px;
+    }
+    .feature .heading p, .banner_container p {
+        display: none;
+    }
+    .banner_container h1 {
+        font-size: 24px;
+        line-height: 41px;
+        margin-bottom: 25px;
+    }
+    .waves {
+        height: 52px;
+        z-index: 99999;
+        bottom: 0px;
+    }
+    .right_area {
+        position: absolute;
+        top: 28px;
+        right: 67px;
+    }
+    .right_area .custom_btn {
+        padding: 11px 14px;
+        font-size: 14px;
+    }
+    .about_content {
+        margin-top: 50px;
+    }
+    .footer_wiget img {
+        max-width: 120px;
+    }
+    .testimonial_items blockquote::after {
+        right: 0;
+    }
+}

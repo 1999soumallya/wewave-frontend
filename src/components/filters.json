@@ -1,0 +1,18 @@
+[
+    {
+        "label": "all",
+        "isChecked": true
+    },
+    {
+        "label": "popular",
+        "isChecked": false
+    },
+    {
+        "label": "trending",
+        "isChecked": false
+    },
+    {
+        "label": "features",
+        "isChecked": false
+    }
+]
